@@ -1,0 +1,60 @@
+name: poslasticarnica
+
+services:
+  wp:
+    container_name: poslasticarnica-wp
+    build:
+      context: wp/
+      dockerfile: Dockerfile
+    env_file: .env
+    volumes: 
+      - wp:/var/www/html/
+    ports:
+      - "8000:80"
+    networks:
+      - poslasticarnica_mreza
+    depends_on:
+      sql:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost", "||", "exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    restart: always
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "2m"
+        max-file: "5"
+
+  sql:
+    container_name: poslasticarnica-sql
+    build:
+      context: sql/
+      dockerfile: Dockerfile
+    env_file: .env
+    ports:
+      - "3306:3306"
+    networks:
+      - poslasticarnica_mreza
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 20s
+      timeout: 10s
+      retries: 5
+    restart: always
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "2m"
+        max-file: "5"
+
+networks:
+  poslasticarnica_mreza:
+
+volumes:
+  wp:
+  mysql_data:

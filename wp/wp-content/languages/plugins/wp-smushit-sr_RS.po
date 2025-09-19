@@ -1,0 +1,1741 @@
+# Translation of Plugins - Smush &#8211; Optimize, Compress and Lazy Load Images - Stable (latest release) in Serbian
+# This file is distributed under the same license as the Plugins - Smush &#8211; Optimize, Compress and Lazy Load Images - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-07-24 14:49:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: sr_RS\n"
+"Project-Id-Version: Plugins - Smush &#8211; Optimize, Compress and Lazy Load Images - Stable (latest release)\n"
+
+#: app/views/bulk-settings/meta-box.php:66
+msgid "Made a mistake? Use this feature to restore your image thumbnails to their original state."
+msgstr "Направили сте грешку? Искористите ову функционалност како би вратили слике у оригинално стање."
+
+#: app/views/settings/permissions-meta-box.php:23
+msgid "By default, subsites will inherit your network settings. Choose which modules you want to allow subsite admins to override."
+msgstr "Подразумевано, подсајтови ће наследити ваша мрежна подешавања. Одаберите модуле које ће администратори подсајтова моћи променити."
+
+#: app/views/settings/permissions-meta-box.php:20
+#: _src/react/modules/configs.jsx:151
+#: app/assets/js/smush-react-configs.min.js:6586
+msgid "Subsite Controls"
+msgstr "Контроле подсајтова"
+
+#: core/modules/class-cdn.php:924
+msgid "Too many requests, please try again in a moment."
+msgstr "Превише захтева, покушајте поново."
+
+#. translators: %1$s - Open the link <a>, %2$s - closing link tag
+#: core/modules/class-cdn.php:299
+msgid "For any non-media library uploads, you can still use the %1$sDirectory Smush%2$s feature to compress them, they just won’t be served from the CDN."
+msgstr "И даље можете користити %1$sСмашовање директоријума%2$s над свих сликама које се не налазе у вашј библиотеци али оне неће бити достављане путем CDN-а."
+
+#. translators: %1$s - Open the link <a>, %2$s - Closing link tag
+#: core/modules/class-cdn.php:292
+msgid "Note: For this feature to work your theme’s background images must be declared correctly using the default %1$swp_attachment%2$s functions."
+msgstr "Напомена: Како би ова функционалност радила са позадинским сликама ваше теме, слике морају бити правилно постављене користећи подразумеване %1$swp_attachment%2$s функције."
+
+#: core/modules/class-cdn.php:237
+msgid "Where possible we will serve background images declared with CSS directly from the CDN."
+msgstr "Уколико је могуће, позадинске слике декларисане путем CSS-а ће бити достављене путем CDN-а."
+
+#: core/modules/class-cdn.php:236
+msgid "Background Images"
+msgstr "Позадинске слике"
+
+#: app/views/cdn/upsell-meta-box.php:37 core/modules/class-cdn.php:235
+msgid "Serve background images from the CDN"
+msgstr "Достављај позадинске слике путем CDN-а"
+
+#: app/views/settings/permissions-meta-box.php:64
+msgid "Choose which modules settings subsite admins have access to."
+msgstr "Одаберите модуле које ће администратори подсајтова моћи променити."
+
+#: app/views/settings/permissions-meta-box.php:58
+msgid "Subsite admins can override all module settings."
+msgstr "Администратори подсајтова могу променити подешањава свих модула."
+
+#: app/views/settings/permissions-meta-box.php:50
+msgid "Subsite admins can't override any module settings and will always inherit your network settings."
+msgstr "Администратори подсајтова не могу променити подешавања нити једног модула и увек ће наследити мрежна подешавања."
+
+#: app/views/lazyload/meta-box.php:323
+msgid "Images will flash into view as soon as they are ready to display."
+msgstr "Слике ће се појавити чим буду спремне за приказ."
+
+#: app/views/lazyload/meta-box.php:313
+msgid "Select"
+msgstr "Одаберите"
+
+#: app/views/lazyload/meta-box.php:303
+msgid "Background color"
+msgstr "Позадинска боја"
+
+#: app/views/lazyload/meta-box.php:262 app/views/lazyload/meta-box.php:275
+msgid "Placeholder image"
+msgstr "Привремена слика"
+
+#: app/views/lazyload/meta-box.php:255
+msgid "Image"
+msgstr "Слика"
+
+#: app/views/lazyload/meta-box.php:253
+msgid "Display a placeholder to display instead of the actual image during lazy loading. You can choose a predefined image, or upload your own."
+msgstr "Прикажите привремену слику уместо праве слике током лењог учитавања. Можете одабрати предефинисану слику или отпремити своју."
+
+#: app/views/lazyload/meta-box.php:243 app/views/lazyload/meta-box.php:295
+msgid "Remove file"
+msgstr "Уклони датотеку"
+
+#: app/views/lazyload/meta-box.php:238 app/views/lazyload/meta-box.php:290
+msgid "Upload file"
+msgstr "Отпреми датотеку"
+
+#: app/views/lazyload/meta-box.php:200
+msgid "Display a spinner where the image will be during lazy loading. You can choose a predefined spinner, or upload your own GIF."
+msgstr "Прикажите спинер на месту где ће бити слика током лењог учитавања. Можете одабрати предефинисани спинер или отпремити ваш GIF."
+
+#: app/views/lazyload/meta-box.php:209 app/views/lazyload/meta-box.php:223
+msgid "Spinner image"
+msgstr "Спинер слика"
+
+#: app/views/lazyload/meta-box.php:180
+msgid "Once the image has loaded, choose how you want the image to display when it comes into view."
+msgstr "Након што се слика учитала, одаберите како желите да се слика прикаже након доласка у ниво погледа."
+
+#: app/views/lazyload/meta-box.php:169
+msgid "Placeholder"
+msgstr "Привремен објекат"
+
+#: app/views/lazyload/meta-box.php:154
+msgid "Choose how you want the non-loaded image to look."
+msgstr "Одаберите како желите да изгледају слике које нису учитане."
+
+#: app/views/lazyload/meta-box.php:152
+msgid "Display"
+msgstr "Приказ"
+
+#: app/views/lazyload/meta-box.php:148
+msgid "Choose how you want preloading images to be displayed, as well as how they animate into view."
+msgstr "Одаберите начин на који желите да учитавајуће слике приказују као и начин анимације када дођу у ниво погледа."
+
+#: app/views/lazyload/meta-box.php:145
+msgid "Display & Animation"
+msgstr "Приказ и Анимација"
+
+#: app/modals/restore-images.php:157
+msgid "Retry"
+msgstr "Покушај поново"
+
+#. translators: 1: Open a link <a>, 2: Close the link </a>
+#: app/modals/restore-images.php:141
+msgid "Note: You can find all the images which couldn't be restored (still smushed) in your %1$sMedia Library%2$s."
+msgstr "Напомена: Све слике које није било могуће повратити на првобитно стање (и даље су смашоване) можете пронаћи у вашој %1$s Библиотеци%2$s."
+
+#: app/modals/restore-images.php:129
+msgid "View item in Media Library"
+msgstr "Погледај ставке у Библиотеци"
+
+#: app/modals/restore-images.php:93 _src/react/views/webp/step-footer.jsx:157
+#: app/assets/js/smush-react-webp.min.js:1252
+msgid "Finish"
+msgstr "Заврши"
+
+#: app/modals/restore-images.php:87
+msgid "images were successfully restored."
+msgstr "Слике су успешно враћене."
+
+#: app/modals/restore-images.php:77
+msgid "Initializing restore..."
+msgstr "Покрећем поступак враћања слика"
+
+#: app/modals/restore-images.php:55
+msgid "Confirm"
+msgstr "Потврди"
+
+#: app/modals/restore-images.php:45
+msgid "Your bulk restore has finished running."
+msgstr "Масовно враћање је завршено."
+
+#: app/modals/restore-images.php:43
+msgid "Your bulk restore is still in progress, please leave this tab open while the process runs."
+msgstr "Масовно враћање је у току, молимо вас оставите овај језичак отворен док се процес не заврши."
+
+#: app/modals/restore-images.php:41
+msgid "Are you sure you want to restore all image thumbnails to their original, non-optimized states?"
+msgstr "Да ли сте сигурни да жели да вратите све слике на њихово оригинално, неоптимизовано стање?"
+
+#: app/modals/restore-images.php:24 app/views/bulk-settings/meta-box.php:74
+msgid "Restore Thumbnails"
+msgstr "Поврати слике на првобитно стање"
+
+#: app/modals/onboarding.php:114
+msgid "Enable Lazy Loading"
+msgstr "Омогући лењо учитавање"
+
+#: app/pages/class-settings.php:219
+msgid "Error detecting language"
+msgstr "Грешка приликом утврђивања језика"
+
+#: core/integrations/class-composer.php:70
+msgid "Allow smushing images resized in WPBakery Page Builder editor."
+msgstr "Дозволи оптимизацију слика у WPBakery Page Builder уређивачу."
+
+#: core/integrations/class-composer.php:69
+msgid "WPBakery Page Builder"
+msgstr "WPBakery Page Builder"
+
+#: core/integrations/class-composer.php:68
+msgid "Enable WPBakery Page Builder integration"
+msgstr "Омогући WPBakery Page Builder интеграцију"
+
+#: app/views/settings/data-meta-box.php:65
+msgid "API Status"
+msgstr "API статус"
+
+#: core/class-settings.php:294
+msgid "This will add functionality to your website that highlights images that are either too large or too small for their containers."
+msgstr "Ово ће додати функционалност на вашем сајту која ће нагласити слике које су превелике или премале за своје контејнере."
+
+#: app/views/dashboard/tools-meta-box.php:33 core/class-settings.php:293
+msgid "Image Resize Detection"
+msgstr "Откривање величине слике"
+
+#: core/class-settings.php:263
+msgid "Automatic compression"
+msgstr "Аутоматска компресија"
+
+#: core/class-settings.php:259
+msgid "WordPress generates multiple image thumbnails for each image you upload. Choose which of those thumbnail sizes you want to include when bulk smushing."
+msgstr "WordPress генерише више величина слика за сваку слику коју отпремите. Одаберите које величине желите да буду увршћене у масовно смашовање."
+
+#: core/class-settings.php:258
+msgid "Image Sizes"
+msgstr "Димензије слика"
+
+#. translators: %1$d - attachment ID, %2$s - error.
+#: core/class-cli.php:206
+msgid "Error compressing image (ID: %1$d). %2$s"
+msgstr "Грешка приликом оптимизације слике (ID: %1$d). %2$s"
+
+#: app/class-abstract-summary-page.php:172
+#: app/views/dashboard/cdn/meta-box.php:80
+#: app/views/dashboard/integrations-meta-box.php:51
+#: app/views/dashboard/summary-meta-box.php:84
+#: app/views/dashboard/summary-meta-box.php:109
+#: app/views/dashboard/summary-meta-box.php:131
+#: app/views/dashboard/tools-meta-box.php:37 core/class-configs.php:653
+msgid "Active"
+msgstr "Укључено"
+
+#: app/class-abstract-summary-page.php:167
+msgid "Activating"
+msgstr "Укључујем"
+
+#: app/class-abstract-summary-page.php:164
+msgid "Needs upgrade"
+msgstr "Потребна надоградња"
+
+#: app/class-abstract-summary-page.php:159
+#: app/views/dashboard/summary-meta-box.php:76
+#: app/views/dashboard/summary-meta-box.php:81
+msgid "Overcap"
+msgstr "Прекорачење"
+
+#: app/class-abstract-summary-page.php:156
+msgid "You've gone through your CDN bandwidth limit, so we’ve stopped serving your images via the CDN. Contact your administrator to upgrade your Smush CDN plan to reactivate this service"
+msgstr "Прошли сте ограничење пропусног опсега CDN-а, тако да смо престали да приказујемо ваше слике преко CDN-а. Обратите се свом администратору да бисте надоградили свој Smush CDN план да бисте поново активирали ову услугу."
+
+#: app/views/settings/data-meta-box.php:67
+msgid "If you're having issues with enabling pro features you can force the API to update your membership status here."
+msgstr "Уколико имате проблема са премијум функционалностима овде можете присилити API да ажурира статус ваше чланарине."
+
+#: app/class-abstract-summary-page.php:161
+msgid "You're almost through your CDN bandwidth limit. Please contact your administrator to upgrade your Smush CDN plan to ensure you don't lose this service"
+msgstr "Још мало па ћете прекорачити ограничење пропусног опсега CDN-а. Обратите се свом администратору да бисте надоградили свој Smush CDN план како бисте осигурали да не изгубите ову услугу."
+
+#: core/api/class-smush-api.php:95
+msgid "[WPMUDEV API] Skipped sync due to API error exponential backoff."
+msgstr "[WPMUDEV API] Прескочена синхронизација због експоненцијалног одбијања API грешке."
+
+#: app/views/bulk/meta-box.php:31 app/views/dashboard/bulk/meta-box.php:22
+#: app/views/nextgen/meta-box.php:21
+msgid "Bulk smush detects images that can be optimized and allows you to compress them in bulk."
+msgstr "Масовно смашовање проналази слике које је могуће оптимизовати и дозвољава вам да их групно оптимизујете."
+
+#: app/views/settings/data-meta-box.php:75
+msgid "Update API status"
+msgstr "Ажурирај стање API-ја"
+
+#: app/common/progress-bar.php:72 app/views/nextgen/progress-bar.php:57
+msgid "Resume"
+msgstr "Настави"
+
+#. translators: %1$s - starting a tag, %2$s - closing a tag
+#: app/pages/class-cdn.php:104
+msgid "You've gone through your CDN bandwidth limit, so we’ve stopped serving your images via the CDN. Contact your administrator to upgrade your Smush CDN plan to reactivate this service. %1$sUpgrade now%2$s"
+msgstr "Премашили сте ограничење пропусног опсега CDN-а, тако да смо престали да приказујемо ваше слике преко CDN -а. Обратите се свом администратору да бисте надоградили својSmush CDN план да бисте поново активирали ову услугу. %1$sДодај сада%2$s"
+
+#: app/modals/onboarding.php:65
+msgid "You can also have Smush compress your original images - this is helpful if your theme serves full size images."
+msgstr "Можете такође рећи Smush-у да компресује ваше оригинале слике - веома корисно уколико ваша тема приказује слике пуних димензија."
+
+#: app/class-abstract-summary-page.php:169 app/pages/class-cdn.php:85
+msgid "Your media is currently being served from the WPMU DEV CDN. Bulk and Directory smush features are treated separately and will continue to run independently."
+msgstr "Ваше слике се тренутно достављају са WPMU DEV CDN-а. Масовно и смашовње директоријума се третира посебно и ове функционалности ће наставити да раде независно."
+
+#: app/pages/class-bulk.php:369
+msgid "Included image sizes"
+msgstr "Увршћене димензије слика"
+
+#: app/pages/class-bulk.php:363 app/views/settings/permissions-meta-box.php:41
+msgid "Custom"
+msgstr "Прилагођено"
+
+#: app/pages/class-bulk.php:359 app/views/settings/permissions-meta-box.php:37
+#: core/class-configs.php:730
+msgid "All"
+msgstr "Свe"
+
+#: app/pages/class-bulk.php:327
+msgid "Note: We will only automatically compress the image sizes selected above."
+msgstr "Напомена: Ми ћемо аутоматски компресовати само димензије слика које сте горе одабрали."
+
+#. translators: %1$s - starting a tag, %2$s - closing a tag
+#: app/pages/class-cdn.php:95
+msgid "You're almost through your CDN bandwidth limit. Please contact your administrator to upgrade your Smush CDN plan to ensure you don't lose this service. %1$sUpgrade now%2$s"
+msgstr "Још мало па ћете прекорачити ограничење пропусног опсега CDN-а. Обратите се свом администратору да бисте надоградили свој Smush CDN план како бисте осигурали да не изгубите ову услугу. %1$sУнапреди сада%2$s"
+
+#: app/pages/class-settings.php:143
+msgid "Note: The highlighting will only be visible to administrators – visitors won’t see the highlighting."
+msgstr "Напомена: Наглашавање ће бити видљиво само администраторима - посетиоци неће моћи ово да виде."
+
+#: app/views/dashboard/cdn/meta-box.php:67
+msgid "Tools"
+msgstr "Алатке"
+
+#: app/class-admin.php:306 app/modals/onboarding.php:51
+#: app/modals/onboarding.php:168 app/pages/class-dashboard.php:132
+#: app/pages/class-lazy.php:30 app/pages/class-lazy.php:45
+#: app/views/dashboard/summary-meta-box.php:126
+#: app/views/settings/permissions-meta-box.php:80 core/class-configs.php:613
+#: core/class-settings.php:1170 _src/react/modules/configs.jsx:147
+#: app/assets/js/smush-react-configs.min.js:6582
+msgid "Lazy Load"
+msgstr "Лењо учитавање"
+
+#: app/class-abstract-page.php:241
+msgid "Log In"
+msgstr "Пријави се"
+
+#: app/class-abstract-page.php:236
+msgid "Smush Pro requires the WPMU DEV Dashboard plugin to unlock pro features. Please make sure you have installed, activated and logged into the Dashboard."
+msgstr "Smush Pro захтева WPMU DEV Dashboard додатак како би добио премиујм функционалности. Молим вас проверите да ли сте поставили, активирали и да ли сте се улоговали у WPMU DEV Dashboard."
+
+#: core/class-core.php:310
+msgid "Ignore this image from bulk smushing"
+msgstr "Занемари ову слику из групног смашовања"
+
+#: app/views/settings/data-meta-box.php:27
+msgid "Choose how you want us to handle your plugin data."
+msgstr "Одаберите како желите да поступамо са подацима овог додатка."
+
+#: app/views/settings/data-meta-box.php:25
+msgid "Data"
+msgstr "Подаци"
+
+#: app/views/settings/data-meta-box.php:32
+msgid "Uninstallation"
+msgstr "Деинсталација"
+
+#: core/modules/class-resize-detection.php:132
+msgid "Undersized"
+msgstr "Испод просечне величине"
+
+#: core/class-error-handler.php:255
+msgid "No attachment ID was received."
+msgstr "ID прилога није примљен."
+
+#: app/class-media-library.php:512
+msgid "Show in bulk Smush"
+msgstr "Покажи у масовном смашовању"
+
+#: app/modals/reset-settings.php:41
+msgid "Reset settings"
+msgstr "Ресетуј подешавања"
+
+#: app/modals/reset-settings.php:31
+msgid "Are you sure you want to reset Smush’s settings back to the factory defaults?"
+msgstr "Да ли сте сигурни да желите да ресетујете подешавања на подразумеване вредности?"
+
+#: app/views/lazyload/meta-box.php:699
+msgid "No longer wish to use this feature? Turn it off instantly by hitting Deactivate."
+msgstr "Не желите више да користите ову функционалност? Искључите је кликом на Искључити."
+
+#: app/views/lazyload/meta-box.php:599
+msgid "Your theme must be using the wp_footer() function."
+msgstr "Ваша тема мора користити wp_footer() функцију."
+
+#: app/views/lazyload/meta-box.php:590
+msgid "Header"
+msgstr "Заглавље"
+
+#: app/views/lazyload/meta-box.php:585
+msgid "Footer"
+msgstr "Подножје"
+
+#: app/views/lazyload/meta-box.php:576
+msgid "Method"
+msgstr "Метода"
+
+#: app/views/lazyload/meta-box.php:571 app/views/lazyload/meta-box.php:578
+msgid "By default we will load the required scripts in your footer for max performance benefits. If you are having issues, you can switch this to the header."
+msgstr "Подразумевано, учитаваћемо потребне скрипте у подножју ради максималних перформанси. Уколико имате проблема, можете ово пребацити на заглавље."
+
+#: app/views/lazyload/meta-box.php:568
+msgid "Scripts"
+msgstr "Скрипте"
+
+#: app/views/lazyload/meta-box.php:550
+msgid "Add classes or IDs, one per line"
+msgstr "Додајте класе или ID-јеве, једну по линији."
+
+#: app/views/lazyload/meta-box.php:540
+msgid "Classes & IDs"
+msgstr "Класе и ID-јеви"
+
+#. translators: %1$s - opening strong tag, %2$s - closing strong tag
+#: app/views/lazyload/meta-box.php:531
+msgid "Add page or post URLs one per line in relative format. I.e. %1$s/example-page%2$s or %1$s/example-page/sub-page/%2$s."
+msgstr "Додајте адресу странице или чланка, једну по линији, у релативном облику. Нпр. %1$s/example-page%2$s или %1$s/example-page/sub-page/%2$s."
+
+#. translators: %1$s - opening strong tag, %2$s - closing strong tag
+#: app/views/lazyload/meta-box.php:555
+msgid "Add one class or ID per line, including the prefix. E.g %1$s#image-id%2$s or %1$s.image-class%2$s."
+msgstr "Додајте једну класу или ID по линији, укључујући и префикс. Нпр.%1$s#image-id%2$s или %1$s.image-class%2$s."
+
+#: app/views/lazyload/meta-box.php:542
+msgid "Additionally, you can specify classes or IDs to avoid lazy loading. This gives you absolute control over each image on a page, not just the page itself."
+msgstr "Додатно, можете одредити класе или ID-јеве који се неће лењо учитавати. Ово вам даје потпуну контролу над свих сликама странице."
+
+#: app/views/lazyload/meta-box.php:526
+msgid "E.g. /page"
+msgstr "Нпр. /page"
+
+#: app/views/lazyload/meta-box.php:516
+msgid "Post, Pages & URLs"
+msgstr "Чланци, Странице и Адресе"
+
+#: app/views/lazyload/meta-box.php:184
+msgid "Duration"
+msgstr "Трајање"
+
+#: app/views/lazyload/meta-box.php:173
+#: app/views/settings/permissions-meta-box.php:33 core/class-configs.php:730
+msgid "None"
+msgstr "Ниједан"
+
+#: app/views/lazyload/meta-box.php:165 app/views/lazyload/meta-box.php:202
+msgid "Spinner"
+msgstr "Спинер"
+
+#: app/views/lazyload/meta-box.php:161
+msgid "Fade In"
+msgstr "Постепено појављивање"
+
+#: app/views/lazyload/meta-box.php:178
+msgid "Animation"
+msgstr "Анимација"
+
+#: app/views/lazyload/meta-box.php:137
+msgid "Gravatars"
+msgstr "Граватар"
+
+#: app/views/lazyload/meta-box.php:125
+msgid "Widgets"
+msgstr "Виџети"
+
+#: app/views/lazyload/meta-box.php:131
+msgid "Post Thumbnail"
+msgstr "Величине слика чланака"
+
+#: app/views/lazyload/meta-box.php:119
+msgid "Content"
+msgstr "Садржај"
+
+#: app/views/lazyload/meta-box.php:108 core/class-configs.php:671
+msgid "Output Locations"
+msgstr "Излазне локације"
+
+#: app/views/lazyload/meta-box.php:94
+msgid ".svg"
+msgstr ".svg"
+
+#: app/views/lazyload/meta-box.php:88
+msgid ".gif"
+msgstr ".gif"
+
+#: app/views/lazyload/meta-box.php:76
+msgid ".png"
+msgstr ".png"
+
+#: app/views/lazyload/meta-box.php:487
+msgid "Tags"
+msgstr "Ознаке"
+
+#: app/views/lazyload/meta-box.php:476
+msgid "Categories"
+msgstr "Категорије"
+
+#: app/views/lazyload/meta-box.php:465
+msgid "Archives"
+msgstr "Архиве"
+
+#: app/views/lazyload/meta-box.php:454
+msgid "Posts"
+msgstr "Чланци"
+
+#: app/views/lazyload/meta-box.php:443
+msgid "Pages"
+msgstr "Странице"
+
+#: app/views/lazyload/meta-box.php:432
+msgid "Blog"
+msgstr "Блог"
+
+#: app/views/lazyload/meta-box.php:421
+msgid "Frontpage"
+msgstr "Насловна страна"
+
+#: app/views/lazyload/meta-box.php:415
+msgid "Type"
+msgstr "Тип"
+
+#: app/views/lazyload/meta-box.php:414
+msgid "Name"
+msgstr "Име"
+
+#: app/views/lazyload/meta-box.php:407
+msgid "Post Types"
+msgstr "Врсте чланака"
+
+#: app/views/lazyload/meta-box.php:190
+msgid "Delay"
+msgstr "Одлагање"
+
+#: app/views/lazyload/meta-box.php:187 app/views/lazyload/meta-box.php:193
+msgid "ms"
+msgstr "мс"
+
+#: app/views/lazyload/meta-box.php:70
+msgid ".jpeg"
+msgstr ".jpeg"
+
+#: app/views/lazyload/meta-box.php:59 core/class-configs.php:670
+msgid "Media Types"
+msgstr "Врсте медија"
+
+#: app/modals/reset-settings.php:27 app/views/settings/data-meta-box.php:58
+msgid "Reset Settings"
+msgstr "Ресетуј подешавања"
+
+#: app/views/settings/data-meta-box.php:53
+msgid "Need to revert back to the default settings? This button will instantly reset your settings to the defaults."
+msgstr "Желите да се вратите на подразумевана подешавања? Ово дугме ће одмах ресетовати сва ваша подешавања на подразумевана."
+
+#: app/views/settings/data-meta-box.php:51
+msgid "Reset Factory Settings"
+msgstr "Ресетуј фабричка подешавања"
+
+#: app/modals/webp-delete-all.php:56 app/views/settings/data-meta-box.php:46
+#: _src/react/modules/configs.jsx:61 _src/react/modules/configs.jsx:119
+#: app/assets/js/smush-react-configs.min.js:6496
+#: app/assets/js/smush-react-configs.min.js:6554
+msgid "Delete"
+msgstr "Избрисати"
+
+#: app/views/settings/data-meta-box.php:41
+msgid "Keep"
+msgstr "Задржи"
+
+#: app/views/settings/data-meta-box.php:34
+msgid "When you uninstall the plugin, what do you want to do with your settings? You can save them for next time, or wipe them back to factory settings."
+msgstr "Када обришете овај додатак, шта желите да се деси са његовим подешавањима? Можете их сачувати за следећи пут или их обрисати на фабричка подешавања."
+
+#: app/common/meta-box-footer.php:16
+msgid "Saving changes..."
+msgstr "Чувам измене..."
+
+#: app/pages/class-settings.php:152
+msgid "Note: Images served via the Smush CDN are automatically resized to fit their containers, these will be skipped."
+msgstr "Напомена: Сликама сервираним од стране Smush CDN-а је аутоматски промењена величина (како би стали у њихове контејнере)."
+
+#: app/views/lazyload/meta-box.php:518
+msgid "Add URLs to the posts and/or pages you want to disable lazy loading on."
+msgstr "Додајте странице чланака и/или страница на којима желите да онемогућите лењо учитавање."
+
+#: app/views/lazyload/meta-box.php:111
+msgid "By default we will lazy load all images, but you can refine this to specific media outputs too."
+msgstr "Подразумевано, све слике ће бити лењо учитане али можете ово да усавршите на специфичне медије."
+
+#: app/views/lazyload/meta-box.php:409
+msgid "Choose the post types you want to lazy load."
+msgstr "Одаберите врсте чланака које желите да лењо учитавате."
+
+#: app/views/lazyload/meta-box.php:402
+msgid "Disable lazy loading for specific pages, posts or image classes that you wish to prevent lazyloading on."
+msgstr "Искључите лењо учитавање над одређеним страницама, чланцима или класама слика."
+
+#: app/views/lazyload/meta-box.php:62
+msgid "Choose which media types you want to lazy load."
+msgstr "Одаберите врсте медија које желите да лењо учитавате."
+
+#: app/views/dashboard/lazy-load-meta-box.php:32
+#: app/views/lazyload/meta-box.php:34
+msgid "Lazy loading is active."
+msgstr "Лењо учитавање је укључено."
+
+#: app/views/lazyload/meta-box.php:399
+msgid "Include/Exclude"
+msgstr "Уврсти / Одстрани"
+
+#: core/class-settings.php:319
+msgid "Help make Smush better by letting our designers learn how you’re using the plugin."
+msgstr "Помозите нам да направимо Smush бољим тако што ћете дозволити дизајнерима да виде како га користите."
+
+#: core/class-settings.php:318
+msgid "Usage Tracking"
+msgstr "Праћење коришћења"
+
+#: core/class-settings.php:314
+msgid "Increase the visibility and accessibility of elements and components to meet WCAG AAA requirements."
+msgstr "Повећајте видљивост и доступност елемената и компоненти како бисте задовољили захтеве WCAG AAA."
+
+#: core/class-settings.php:313
+msgid "Color Accessibility"
+msgstr "Доступност боја"
+
+#: core/class-settings.php:312
+msgid "Enable high contrast mode"
+msgstr "Омогућите режим високог контраста"
+
+#: core/class-cli.php:309
+msgid "All images restored"
+msgstr "Све слике су обновљене"
+
+#: core/class-cli.php:307
+msgid "There were issues restoring some images"
+msgstr "Било је проблема приликом обнављања неких слика."
+
+#: core/class-cli.php:278
+msgid "Restoring images"
+msgstr "Обнављање слика"
+
+#: core/class-cli.php:271
+msgid "Image with defined ID not found"
+msgstr "Слика са дефинисаним ID-јем није пронађена"
+
+#: core/class-cli.php:265
+msgid "No images available to restore"
+msgstr "Нема доступних слика за обнављање"
+
+#: core/class-cli.php:250
+msgid "All images compressed"
+msgstr "Све слике су компресоване"
+
+#: core/class-cli.php:223
+msgid "Image compressed"
+msgstr "Слика компресована"
+
+#. translators: %d - attachment ID
+#: core/class-cli.php:198
+msgid "Image (ID: %d) already compressed"
+msgstr "Слика (ID: %d) је већ компресована"
+
+#: core/class-cli.php:133
+msgid "Unsmushed images:"
+msgstr "Некомпресоване слике:"
+
+#: core/class-cli.php:129
+msgid "No uncompressed images found"
+msgstr "Некомпресоване слике нису пронађене"
+
+#: core/class-cli.php:79
+msgid "Smushing all images"
+msgstr "Смашујем све слике"
+
+#. translators: %d - number of images
+#: core/class-cli.php:74
+msgid "Smushing first %d images"
+msgstr "Смашујем првих %d слика"
+
+#. translators: %d - image ID
+#: core/class-cli.php:68
+msgid "Smushing image ID: %d"
+msgstr "Смашујем слику  ID: %d"
+
+#: app/views/dashboard/summary-meta-box.php:66
+#: app/views/dashboard/summary-meta-box.php:102
+msgid "Upgrade"
+msgstr "Унапреди"
+
+#: app/class-admin.php:216 app/views/bulk/limit-reached-notice.php:28
+#: app/views/smush-upgrade-page.php:26
+msgid "Upgrade to Smush Pro"
+msgstr "Унапреди на Smush Pro"
+
+#: app/modals/onboarding.php:106
+msgid "Automatically optimize new uploads"
+msgstr "Аутоматски оптимизујте нова отпремања"
+
+#: app/modals/onboarding.php:96
+msgid "Begin setup"
+msgstr "Почните са подешавањем"
+
+#: app/modals/onboarding.php:188
+msgid "Skip this, I’ll set it up later"
+msgstr "Прескочи, наместићу ово после"
+
+#: app/modals/onboarding.php:134 _src/react/views/webp/step-footer.jsx:117
+#: app/assets/js/smush-react-webp.min.js:1212
+msgid "Next"
+msgstr "Даље"
+
+#: app/modals/onboarding.php:128
+msgid "Finish setup wizard"
+msgstr "Заврши чаробњака за подешавање"
+
+#: app/modals/onboarding.php:123
+msgid "Note: By default we will store a copy of your original uploads just in case you want to revert in the future - you can turn this off at any time."
+msgstr "Напомена: Подразумевано, ми ћемо сачувати копију ваших оригиналних отпремања како би, за сваки случај, могли да се вратите на њих - ово можете искључити у било ком моменту."
+
+#: app/modals/onboarding.php:112
+msgid "Compress my full size images"
+msgstr "Компресуј моје слике пуних величина"
+
+#: app/modals/onboarding.php:59
+msgid "When you upload images to your site, Smush can automatically optimize and compress them for you saving you having to do this manually."
+msgstr "Smush може аутоматски оптимизовати и компресовати све ваша слике приликом отпремања на сајт."
+
+#: app/modals/onboarding.php:47 app/modals/onboarding.php:160
+msgid "EXIF Metadata"
+msgstr "EXIF Meta подаци"
+
+#: app/modals/onboarding.php:43 app/modals/onboarding.php:154
+msgid "Automatic Compression"
+msgstr "Аутоматска компресија"
+
+#. translators: %s: current user name
+#: app/modals/onboarding.php:40
+msgid "Hey, %s!"
+msgstr "Hej, %s!"
+
+#: app/modals/onboarding.php:30
+msgid "Smush Onboarding Modal"
+msgstr "Smush-ов модул упознавања"
+
+#: app/pages/class-settings.php:122
+msgid "Note: Usage tracking is completely anonymous. We are only tracking what features you are/aren’t using to make our feature decisions more informed."
+msgstr "Напомена: Праћење коришћења је потпуно анонимно. Ми само пратимо које функционалности користите/не користите како би убудуће доносили боље одлуке."
+
+#: app/class-media-library.php:385
+msgid "Select an image to view Smush stats."
+msgstr "Означите слику како би видели Smush статистику."
+
+#: app/class-ajax.php:668 app/class-ajax.php:825
+msgid "User can not modify options"
+msgstr "Корисник не може да промени опције"
+
+#: core/modules/class-cdn.php:245
+msgid "Enable WebP conversion"
+msgstr "Омогући WebP претварање"
+
+#: core/modules/class-cdn.php:242
+msgid "If your images don’t match their containers, we’ll automatically serve a correctly sized image."
+msgstr "Уколико се ваше слике не поклапају са њиховим контејнерима ми ћемо их аутоматски доставити у одговарајућим величинама."
+
+#: core/modules/class-cdn.php:241
+msgid "Automatic Resizing"
+msgstr "Аутоматска промена величине"
+
+#: core/modules/class-cdn.php:240
+msgid "Enable automatic resizing of my images"
+msgstr "Омогући аутоматску промену величине мојих слика"
+
+#: app/views/dashboard/cdn/meta-box.php:76 core/modules/class-cdn.php:246
+msgid "WebP Conversion"
+msgstr "WebP претварање"
+
+#: core/api/class-request.php:82
+msgid "Invalid API service."
+msgstr "Неважећи API сервис."
+
+#: app/common/footer-links.php:50 app/common/footer-links.php:75
+#: app/views/smush-upgrade-page.php:220
+msgid "Privacy Policy"
+msgstr "Правила о приватности"
+
+#: app/common/footer-links.php:47 app/common/footer-links.php:72
+#: app/views/smush-upgrade-page.php:217
+msgid "Terms of Service"
+msgstr "Услови коришћења"
+
+#: app/common/footer-links.php:32 app/views/smush-upgrade-page.php:202
+msgid "Free Plugins"
+msgstr "Бесплатни додаци"
+
+#: app/common/footer-links.php:69
+msgid "Community"
+msgstr "Заједница"
+
+#: app/class-admin.php:234 app/common/footer-links.php:41
+#: app/common/footer-links.php:66 app/views/smush-upgrade-page.php:211
+msgid "Docs"
+msgstr "Упутства"
+
+#: app/class-admin.php:266 app/common/footer-links.php:38
+#: app/common/footer-links.php:63 app/views/smush-upgrade-page.php:208
+msgid "Support"
+msgstr "Подршка"
+
+#: app/class-admin.php:282 app/common/footer-links.php:35
+#: app/common/footer-links.php:60 app/views/smush-upgrade-page.php:205
+msgid "Roadmap"
+msgstr "Мапа развоја"
+
+#: app/common/footer-links.php:57
+msgid "Plugins"
+msgstr "Додаци"
+
+#: app/common/footer-links.php:44 app/common/footer-links.php:54
+#: app/views/smush-upgrade-page.php:214
+msgid "The Hub"
+msgstr "The Hub"
+
+#. translators: %d: number of images with errors
+#: app/views/dashboard/directory-meta-box.php:56
+#: app/views/directory/meta-box.php:71
+msgid "Showing 20 of %d failed optimizations. Fix or remove these images and run another Directory Smush."
+msgstr "Приказујем 20 од %d неуспелих оптимизација. Поправите или уклоните ове слике и покрените ново Смашовање фасцикли."
+
+#. translators: %1$s: opening a tag, %2$s: closing a tag
+#: app/views/settings/general-meta-box.php:51
+msgid "Not using your language, or have improvements? Help us improve translations by providing your own improvements %1$shere%2$s."
+msgstr "Не користимо ваш језик или имате предлоге за побољшања? Помозите нам да унапредимо преводе тако што ћете предложити побољшања %1$sовде%2$s."
+
+#: app/views/settings/general-meta-box.php:44
+msgid "Active Translation"
+msgstr "Укључите преводе"
+
+#. translators: %1$s: opening a tag, %2$s: closing a tag
+#: app/views/settings/general-meta-box.php:34
+msgid "By default, Smush will use the language you’d set in your %1$sWordPress Admin Settings%2$s if a matching translation is available."
+msgstr "Подразумевано, Smush ће користити језик који је постављен у вашим %1$sWordPress Admin Подешавањима%2$s уколико постоји превод за овај језик."
+
+#: app/views/dashboard/directory-meta-box.php:21
+#: app/views/directory/meta-box.php:24
+msgid "In addition to smushing your media uploads, you may want to smush non WordPress images that are outside of your uploads directory. Get started by adding files and folders you wish to optimize."
+msgstr "Поред смашовања отпремљених слика, такође можете смашовати слике које постоје ван фасцикли за отпремање. Почните тако што ћете додати датотеке и фасцикле које желите да оптимизујете."
+
+#: app/views/settings/general-meta-box.php:30
+msgid "Translations"
+msgstr "Преводи"
+
+#: app/views/bulk-settings/meta-box.php:27
+msgid "Your images are currently being served via the WPMU DEV CDN. Bulk smush will continue to operate as per your settings below and is treated completely separately in case you ever want to disable the CDN."
+msgstr "Ваше слике се тренутно достављају путем WPMU DEV CDN-а. Масовно смашовање ће наставити да ради потпуно одвојено, према вашим подешавањима, и третира се одвојено уколико одлучите да искључите CDN."
+
+#: app/views/cdn/meta-box.php:115
+msgid "Note: You won’t lose any images by deactivating, all of your attachments are still stored locally on your own server."
+msgstr "Напомена: Нећете изгубити ваше слике приликом искључења ове опције, сви ваши прилози се и даље чувају локално на вашем серверу."
+
+#: app/views/cdn/meta-box.php:94 app/views/cdn/meta-box.php:109
+#: app/views/lazyload/meta-box.php:695 app/views/lazyload/meta-box.php:710
+#: app/views/webp/webp-meta-box.php:182 app/views/webp/webp-meta-box.php:194
+msgid "Deactivate"
+msgstr "Искључи"
+
+#: app/views/cdn/meta-box.php:66
+msgid "webp"
+msgstr "webp"
+
+#: app/views/cdn/meta-box.php:62
+msgid "gif"
+msgstr "gif"
+
+#: app/views/cdn/meta-box.php:59 app/views/webp/webp-meta-box.php:131
+msgid "png"
+msgstr "png"
+
+#: app/views/cdn/meta-box.php:56 app/views/webp/webp-meta-box.php:128
+msgid "jpg"
+msgstr "jpg"
+
+#: app/views/cdn/meta-box.php:72
+msgid "At this time, we don’t support videos. We recommend uploading your media to a third-party provider and embedding the videos into your posts/pages."
+msgstr "Напомена: Тренутно не подржавамо видео записе. Препоручујемо отпремање видео записа на друге провајдере и постављање истих у ваше чланке/странице."
+
+#: app/views/cdn/meta-box.php:50
+msgid "Here’s a list of the media types we serve from the CDN."
+msgstr "Ево листе типова фајлова који ћемо достављати са CDN-а."
+
+#: app/views/cdn/meta-box.php:98
+msgid "If you no longer require your images to be hosted from our CDN, you can disable this feature."
+msgstr "Уколико не желите да се ваше слике достављају са нашег CDN-а можете онемогућити ову функционалност."
+
+#: app/views/cdn/meta-box.php:35
+msgid "Upgrade Plan"
+msgstr "Унапреди план"
+
+#: app/common/meta-box-footer.php:28
+msgid "Activating CDN..."
+msgstr "Укључујем CDN..."
+
+#: app/common/meta-box-footer.php:27
+msgid "Save & Activate"
+msgstr "Сачувај и Укључи"
+
+#: app/views/cdn/meta-box.php:46 app/views/webp/webp-meta-box.php:120
+msgid "Supported Media Types"
+msgstr "Подржавани типови датотека"
+
+#: app/class-abstract-page.php:232 app/views/cdn/disabled-meta-box.php:19
+#: app/views/cdn/upsell-meta-box.php:20
+#: app/views/lazyload/disabled-meta-box.php:18
+msgid "Smush CDN"
+msgstr "Smush CDN"
+
+#: app/pages/class-bulk.php:648 app/views/dashboard/cdn/meta-box-header.php:21
+#: app/views/dashboard/summary-meta-box.php:69
+#: app/views/dashboard/summary-meta-box.php:105
+#: app/views/dashboard/upsell/meta-box-header.php:19
+#: app/views/dashboard/webp/meta-box-header.php:21
+#: app/views/webp/meta-box-header.php:24
+#: core/integrations/class-nextgen.php:718 core/integrations/class-s3.php:427
+#: _src/react/views/webp/steps-bar.jsx:52
+#: app/assets/js/smush-react-webp.min.js:503
+msgid "Pro"
+msgstr "Pro"
+
+#: app/views/dashboard/cdn/meta-box.php:57
+msgid "Your media is currently being served from the WPMU DEV CDN."
+msgstr "Ваши медији се тренутно достављају са WPMU DEV CDN-а."
+
+#: app/pages/class-cdn.php:89
+msgid "CDN is not yet active. Configure your settings below and click Activate."
+msgstr "CDN није укључен. Подесите ваша подешавања и кликните на Укључити."
+
+#: app/pages/class-settings.php:188
+msgid "Almost there! To finish activating this feature you must save your settings."
+msgstr "Још мало па готово! Како би завршили укључење ове функционалности морате сачувати ваша подешавања."
+
+#. translators: %1$s: opening a tag, %2$s: closing a tag
+#: app/pages/class-settings.php:170
+msgid "Incorrect image size highlighting is active. %1$sView the frontend%2$s of your website to see if any images aren't the correct size for their containers."
+msgstr "Истицање неправилне величине слика је укључено. %1$sПогледајте предњу страну %2$s вашег сајта како би видели које слике нису добре величине за њихове контејнере."
+
+#: app/common/progress-bar.php:59 app/views/nextgen/progress-bar.php:43
+msgid "Resume scan."
+msgstr "Настави скенирање."
+
+#: app/views/nextgen/meta-box.php:69
+msgid "View all"
+msgstr "Погледај све"
+
+#: core/modules/class-resize-detection.php:139
+msgid "Note: It’s not always easy to make this happen, fix up what you can."
+msgstr "Напомена: Ово није увек лако направити те исправите што је више могуће."
+
+#: core/modules/class-resize-detection.php:129
+msgid "Oversized"
+msgstr "Превелик"
+
+#: core/modules/class-resize-detection.php:123
+msgid "Image Issues"
+msgstr "Проблеми слика"
+
+#: app/class-media-library.php:310 app/class-media-library.php:381
+msgid "Smush: Bulk ignored"
+msgstr "Smush: Масовно игнорисано"
+
+#: app/class-media-library.php:308 app/class-media-library.php:379
+msgid "Smush: All images"
+msgstr "Smush: Све слике"
+
+#: core/class-error-handler.php:260
+msgid "Skipped with wp_smush_image filter"
+msgstr "Прескочено са wp_smush_image филтером"
+
+#: core/modules/class-resize-detection.php:125
+msgid "The images listed below are being resized to fit a container. To avoid serving oversized or blurry images, try to match the images to their container sizes."
+msgstr "Сликама наведеним испод се тренутно мења величина како стали у њихове контејнере. Како би избегли достављање превеликих или мутних слика, покушајте да подесите слике према величинама њихових контејнера."
+
+#: core/integrations/class-nextgen.php:188
+msgid "No attachment ID was received"
+msgstr "ID прилога није примљен"
+
+#: core/integrations/nextgen/class-admin.php:214
+msgid "{{smushed}}/{{total}} images were successfully compressed, {{errors}} encountered issues."
+msgstr "{{smushed}}/{{total}} слика је успешно компресовано, {{errors}} утврђених проблема."
+
+#: core/class-settings.php:299
+msgid "Choose how you want Smush to handle the original image file when you run a bulk smush."
+msgstr "Одаберите начин на који ће Smush руковати оригиналном датотеком слике након покретања масовног смашовања."
+
+#: core/class-settings.php:298
+msgid "Original Images"
+msgstr "Оригиналне слике"
+
+#: app/modals/progress-dialog.php:64
+msgid "-/- images optimized"
+msgstr "-/- слика оптимизовано"
+
+#: app/common/progress-bar.php:57 app/modals/progress-dialog.php:57
+#: app/modals/reset-settings.php:37 app/modals/restore-images.php:52
+#: app/modals/restore-images.php:70 app/modals/restore-images.php:150
+#: app/modals/stop-scanning.php:30 app/modals/webp-delete-all.php:49
+#: app/views/nextgen/progress-bar.php:41 core/class-core.php:338
+#: _src/react/bulk/media-library-scanner-modal.js:25
+#: _src/react/modules/configs.jsx:37
+#: app/assets/js/smush-library-scanner.min.js:871
+#: app/assets/js/smush-react-configs.min.js:6472
+msgid "Cancel"
+msgstr "Откажи"
+
+#: app/modals/progress-dialog.php:38
+msgid "Bulk smushing is in progress, you need to leave this tab open until the process completes."
+msgstr "Масовно смашовање у току, морате оставити овај језичак отворен док се процес не заврши."
+
+#: core/integrations/class-gutenberg.php:103
+msgid "To use this feature you need to install and activate the Gutenberg plugin."
+msgstr "Како би користили ову функционалност морате поставити и укључити Gutenberg додатак."
+
+#: core/integrations/class-gutenberg.php:70
+msgid "Gutenberg Support"
+msgstr "Gutenberg подршка"
+
+#: core/integrations/class-gutenberg.php:69
+msgid "Show Smush stats in Gutenberg blocks"
+msgstr "Прикажи Smush статистику у Gutenberg блоковима"
+
+#. translators: %1$s - opening <a>, %2$s - closing </a>
+#: app/class-admin.php:357
+msgid "Smush uses the Stackpath Content Delivery Network (CDN). Stackpath may store web log information of site visitors, including IPs, UA, referrer, Location and ISP info of site visitors for 7 days. Files and images served by the CDN may be stored and served from countries other than your own. Stackpath's privacy policy can be found %1$shere%2$s."
+msgstr "Smush користи Stackpath Content Delivery Network (CDN). Stackpath може сачувати информације о посетиоцима вашег сајта укључујучи IP адресе, корисничке агенте, упутиоца, локацију и ISP информације 7 дана. Датотеке и слике достављене од CDN-а могу бити сачуване и достављене из земаља које нису ваше. Stackpath-ова политика приватности се може видети %1$sовде%2$s.."
+
+#: app/modals/progress-dialog.php:108
+msgid "RESUME"
+msgstr "НАСТАВИ"
+
+#: core/modules/class-dir.php:930
+msgid "Empty Directory Path"
+msgstr "Испразни путању директоријума"
+
+#: core/modules/class-dir.php:733
+msgid "There was a problem getting the selected directories"
+msgstr "Дошло је до проблема приликом достављања одабраних директоријума"
+
+#: app/class-ajax.php:162 app/class-ajax.php:176 app/class-ajax.php:240
+#: app/class-ajax.php:263 app/class-ajax.php:280 app/class-ajax.php:292
+#: app/class-ajax.php:307 app/class-ajax.php:326 app/class-ajax.php:342
+#: app/class-ajax.php:506 app/class-ajax.php:626 app/class-ajax.php:857
+#: app/class-ajax.php:976 app/class-ajax.php:999 core/class-settings.php:662
+#: core/integrations/class-nextgen.php:181
+#: core/modules/bulk/class-background-bulk-smush.php:138
+#: core/modules/class-backup.php:728 core/modules/class-backup.php:747
+#: core/modules/class-dir.php:186 core/modules/class-dir.php:204
+#: core/modules/class-dir.php:230 core/modules/class-dir.php:262
+#: core/modules/class-dir.php:549 core/modules/class-dir.php:560
+#: core/modules/class-dir.php:805 core/modules/class-dir.php:922
+msgid "Unauthorized"
+msgstr "Неовлашћено"
+
+#: core/class-core.php:307
+msgid "Resume scan"
+msgstr "Настави скенирање"
+
+#: app/common/progress-bar.php:66 core/class-core.php:306
+msgid "images optimized"
+msgstr "слика оптимизовано"
+
+#: app/views/nextgen/summary-meta-box.php:72
+msgid "Disabled"
+msgstr "Онемогућено"
+
+#: core/integrations/nextgen/class-admin.php:838
+#: core/media-library/class-media-library-row.php:539
+msgid "Resmush"
+msgstr "Понови смашовање"
+
+#: core/integrations/nextgen/class-admin.php:863
+#: core/media-library/class-media-library-row.php:614
+msgid "Restore"
+msgstr "Поврати на почетно стање"
+
+#: core/media-library/class-media-library-row.php:622
+msgid "View Stats"
+msgstr "Погледај статистику"
+
+#: app/class-abstract-page.php:687
+msgid "Documentation"
+msgstr "Документација"
+
+#: app/class-abstract-page.php:676 _src/react/bulk/media-library-scanner.js:35
+#: app/assets/js/smush-library-scanner.min.js:1008
+msgid "Re-Check Images"
+msgstr "Поново провери слике"
+
+#: app/views/smush-upgrade-page.php:39
+msgid "UPGRADE TO PRO"
+msgstr "УНАПРЕДИ НА PRO"
+
+#: app/common/all-images-smushed-notice.php:20 core/class-core.php:280
+msgid "All attachments have been smushed. Awesome!"
+msgstr "Сви прилози су смашовани. Одлично!"
+
+#: app/views/bulk/media-lib-empty.php:13
+msgid "Once you upload images, reload this page and start playing!"
+msgstr "Након што отпремите слике, освежите ову страну и започните игру!"
+
+#: app/class-media-library.php:462
+#: app/views/dashboard/integrations-meta-box.php:49
+msgid "PRO"
+msgstr "PRO"
+
+#: app/common/summary-segment.php:26
+msgid "Images Smushed"
+msgstr "Смашоване слике"
+
+#: app/common/summary-segment.php:18 app/views/smush-upgrade-page.php:64
+msgid "Total Savings"
+msgstr "Укупна уштеда"
+
+#: app/class-admin.php:318 app/pages/class-dashboard.php:85
+#: app/pages/class-integrations.php:38
+#: app/views/settings/permissions-meta-box.php:75 core/class-settings.php:1169
+#: _src/react/modules/configs.jsx:146
+#: app/assets/js/smush-react-configs.min.js:6581
+msgid "Integrations"
+msgstr "Интеграције"
+
+#: app/class-admin.php:298 app/pages/class-bulk.php:94
+#: app/pages/class-dashboard.php:74 app/pages/class-nextgen.php:57
+#: app/pages/class-nextgen.php:111
+#: app/views/dashboard/bulk/exists-uncompressed.php:53
+#: app/views/settings/permissions-meta-box.php:70 core/class-settings.php:1168
+#: core/modules/bulk/class-mail.php:96 _src/react/modules/configs.jsx:145
+#: app/assets/js/smush-react-configs.min.js:6580
+msgid "Bulk Smush"
+msgstr "Масовно смашовање"
+
+#: app/views/smush-upgrade-page.php:109
+msgid "Pro Features"
+msgstr "Pro карактеристике"
+
+#: core/class-rest.php:52
+msgid "Smush data."
+msgstr "Smush подаци."
+
+#: app/common/footer-plugins-upsell.php:26
+#: app/common/footer-plugins-upsell.php:38
+#: app/common/footer-plugins-upsell.php:50
+msgid "View features"
+msgstr "Погледај функционалности"
+
+#: app/views/smush-upgrade-page.php:197
+msgid "by WPMU DEV"
+msgstr "од WPMU DEV"
+
+#: app/views/smush-upgrade-page.php:197
+msgid "Made with"
+msgstr "Направљено са"
+
+#: app/common/footer-plugins-upsell.php:70
+#: core/media-library/class-media-library-row.php:312
+#: _src/react/views/webp/free-content.jsx:79
+#: app/assets/js/smush-react-webp.min.js:1087
+msgid "Learn more"
+msgstr "Сазнај више"
+
+#: app/common/footer-plugins-upsell.php:67
+msgid "WPMU DEV - Your WordPress Toolkit"
+msgstr "WPMU DEV - Ваш алат за WordPress"
+
+#: app/modals/directory-list.php:30 app/modals/progress-dialog.php:32
+msgid "Close"
+msgstr "Затвори"
+
+#: app/modals/directory-list.php:26 app/modals/progress-dialog.php:28
+#: app/views/dashboard/directory-meta-box.php:69
+msgid "Choose Directory"
+msgstr "Одаберите складиште"
+
+#: app/views/lazyload/meta-box.php:219 app/views/lazyload/meta-box.php:272
+msgid "Remove"
+msgstr "Уклони"
+
+#: app/views/directory/meta-box.php:20
+msgid "Directory Smush - Choose Folder"
+msgstr "Смашовање складишта - одаберите фасциклу"
+
+#: app/class-admin.php:302 app/pages/class-dashboard.php:121
+#: app/pages/class-directory.php:31
+msgid "Directory Smush"
+msgstr "Смашовање складишта"
+
+#: app/class-abstract-summary-page.php:152 app/class-admin.php:310
+#: app/pages/class-cdn.php:31 app/pages/class-cdn.php:40
+#: app/pages/class-cdn.php:50 app/pages/class-dashboard.php:96
+#: app/pages/class-dashboard.php:403 app/views/cdn/meta-box-header.php:17
+#: app/views/dashboard/summary-meta-box.php:61
+#: app/views/settings/permissions-meta-box.php:85 core/class-configs.php:614
+#: core/class-settings.php:1171 _src/react/modules/configs.jsx:148
+#: app/assets/js/smush-react-configs.min.js:6583
+msgid "CDN"
+msgstr "CDN"
+
+#: core/class-rest.php:76
+msgid "Smushing in progress"
+msgstr "Смашовање у току"
+
+#. translators: %s - width, %s - height.
+#: core/modules/class-resize-detection.php:103
+msgid "This image is too small for its container. Adjust the image dimensions to %1$s x %2$spx for optimal results."
+msgstr "Ова слика је премала за свој контејнер. Подесите димензију слике на %1$s x %2$spx како би добили најбоље резултате."
+
+#. translators: %s - width, %s - height.
+#: core/modules/class-resize-detection.php:101
+msgid "This image is too large for its container. Adjust the image dimensions to %1$s x %2$spx for optimal results."
+msgstr "Ова слика је превелика ѕа свој контејнер. Подесите димензију слике %1$s x %2$spx како би добили најбоље резултате."
+
+#: core/integrations/class-s3.php:371
+msgid "To use this feature you need to install WP Offload Media and have an Amazon S3 account setup."
+msgstr "Како би користили ову функционалност морате имати постављен WP Offload S3 и Amazon S3 налог."
+
+#. translators: %1$d - number of images, %2$s - opening a tag, %3$s - closing a
+#. tag
+#: app/class-admin.php:603 core/integrations/nextgen/class-admin.php:561
+msgid "Image check complete, you have %1$d images that need smushing. %2$sBulk smush now!%3$s"
+msgstr "Провера слика завршена, имате још %1$d слика које је потребно смашовати. %2$sМасовно смашујте сада%3$s"
+
+#: core/class-settings.php:292
+msgid "Detect and show incorrectly sized images"
+msgstr "Откривање и приказивање слика погрешних величина"
+
+#: app/modals/onboarding.php:20
+msgid "Optimize images up to 2x more than regular smush with our multi-pass lossy compression."
+msgstr "Оптимизујте ваше слике до 2 пута више од регуларног смашовања са нашом multi-pass lossy компресијом."
+
+#: core/class-settings.php:278
+msgid "Metadata"
+msgstr "Мета подаци"
+
+#: app/modals/onboarding.php:110 core/class-settings.php:277
+msgid "Strip my image metadata"
+msgstr "Обриши мета податке са слика"
+
+#: core/class-settings.php:283
+msgid "Image Resizing"
+msgstr "Промена димензија слика"
+
+#: app/common/footer-plugins-upsell.php:47
+msgid "SmartCrawl Search Engine Optimization"
+msgstr "SmartCrawl оптимизација интернет претраживача"
+
+#: app/common/footer-plugins-upsell.php:36
+msgid "Security Tweaks & Recommendations, File & Malware Scanning, Login & 404 Lockout Protection, Two-Factor Authentication & more."
+msgstr "Сигурносна подешавања и препоруке, скенирање датотека и злонамерних програма, Заштита 404 Lockout-а и Пријаве, Two-Factor аутентификација и још пуно тога."
+
+#: app/common/footer-plugins-upsell.php:35
+msgid "Defender Security, Monitoring, and Hack Protection"
+msgstr "Defender Сигурност, Праћење и Заштита против хаковања"
+
+#: app/common/footer-plugins-upsell.php:24
+msgid "Performance Tests, File Optimization & Compression, Page, Browser & Gravatar Caching, GZIP Compression, CloudFlare Integration & more."
+msgstr "Тест перформанси, Оптимизација и компресија датотека, Кеширање страница, прегледача и Граватара, GZIP компресија, CloudFlare интеграција и још пуно тога."
+
+#: app/common/footer-plugins-upsell.php:23
+msgid "Hummingbird Page Speed Optimization"
+msgstr "Hummingbird Оптимизација брзине странице"
+
+#: app/common/footer-plugins-upsell.php:16
+msgid "Check out our other free wordpress.org plugins!"
+msgstr "Проверите наше бесплатне додатке на wordpress.org!"
+
+#. Plugin Name of the plugin
+#: app/class-admin.php:291 app/class-media-library.php:378
+#: core/integrations/nextgen/class-admin.php:135
+#: core/integrations/nextgen/class-admin.php:137
+#: core/integrations/nextgen/class-admin.php:275
+#: core/media-library/class-media-library-row.php:511
+#: core/modules/bulk/class-mail.php:65 wp-smush.php:508
+msgid "Smush"
+msgstr "Smush"
+
+#: app/class-admin.php:291 app/class-admin.php:330
+#: app/pages/class-dashboard.php:110 app/pages/class-dashboard.php:353
+#: app/views/directory/meta-box.php:43 core/modules/bulk/class-mail.php:65
+msgid "Smush Pro"
+msgstr "Smush Pro"
+
+#: app/common/footer-plugins-upsell.php:48
+msgid "Customize Titles & Metadata, OpenGraph, Twitter & Pinterest Support, Auto-Keyword Linking, SEO & Readability Analysis, Sitemaps, URL Crawler & more."
+msgstr "Прилагодите Називе & Мету, OpenGraph, Twitter & Pinterest Support, Аутоматске везе кључних речи, SEO & Анализу читљивости, Мапе сајта и још пуно тога."
+
+#: app/class-admin.php:365
+msgid "Smush uses a third-party email service (Drip) to send informational emails to the site administrator. The administrator's email address is sent to Drip and a cookie is set by the service. Only administrator information is collected by Drip."
+msgstr "Smush користи (Drip) сервис како би слао информациону е-пошту администраторима сајтова. Адреса е-поште администратора се шаље у Drip и колачићи се постављају од стране сервиса. Drip само прикупља податке од администратора."
+
+#: app/class-admin.php:354
+msgid "Smush sends images to the WPMU DEV servers to optimize them for web use. This includes the transfer of EXIF data. The EXIF data will either be stripped or returned as it is. It is not stored on the WPMU DEV servers."
+msgstr "Smush шаље слике на WPMU DEV сервере како би били оптимизовани за веб употребу. Ово подразумева и слање EXIF података. EXIF подаци ће бити скинути или враћени такви какви су и неће бити сачувани на WPMU DEV серверима."
+
+#: app/class-admin.php:352
+msgid "Note: Smush does not interact with end users on your website. The only input option Smush has is to a newsletter subscription for site admins only. If you would like to notify your users of this in your privacy policy, you can use the information below."
+msgstr "Напомена: Smush не делује на кориснике вашег сајта. Једини унос Smush-а је претплата на билтен и ово се односи само на администраторе сајта. Уколико желите да обавестите ваше кориснике о овоме, можете искористити информације испод."
+
+#: app/class-admin.php:350
+msgid "Plugin: Smush"
+msgstr "Додатак: Smush"
+
+#: app/views/bulk/meta-box.php:86
+msgid "Click to start Bulk Smushing images in Media Library"
+msgstr "Кликни како би започео/ла Масовно Смашовање слика из Библиотеке"
+
+#: app/views/cdn/disabled-meta-box.php:32
+msgid "GET STARTED"
+msgstr "ПОЧНИ"
+
+#: app/class-abstract-summary-page.php:198
+#: app/class-abstract-summary-page.php:211
+msgid "Select a directory you'd like to Smush."
+msgstr "Одаберите фасциклу коју желите да Смашујете"
+
+#: app/class-media-library.php:384
+msgid "Smush Stats"
+msgstr "Подаци о Смашовању"
+
+#: core/class-core.php:304
+msgid "Give us a moment while we sync the stats."
+msgstr "Молим вас сачекајте док не синхронизујемо податке."
+
+#: app/pages/class-integrations.php:88
+msgid "Note: For this process to happen automatically you need automatic smushing enabled."
+msgstr "Напомена: Како би се овај процес десио аутоматски потребно је да имате аутоматско смашовање укључено."
+
+#: app/common/meta-box-footer.php:35
+msgid "Smush will automatically check for any images that need re-smushing."
+msgstr "Smush ће аутоматски проверити да ли постоје слике које је потребно поново смашовати."
+
+#: core/class-core.php:308
+msgid "Stop current bulk smush process."
+msgstr "Стопирај тренутно смашовање"
+
+#: app/class-abstract-summary-page.php:130
+msgid "PNG to JPEG savings"
+msgstr "Уштеда из PNG ка JPEG"
+
+#: app/views/nextgen/summary-meta-box.php:49
+msgid "Total savings"
+msgstr "Укупна уштеда"
+
+#: app/common/summary-segment.php:34
+msgid "Images Resized"
+msgstr "Слике са промењеном величином"
+
+#: app/views/nextgen/summary-meta-box.php:41
+msgid "Images smushed"
+msgstr "Смашоване слике"
+
+#: core/integrations/class-s3.php:397
+msgid "Amazon S3 support is active."
+msgstr "Amazon S3 подршка је активна."
+
+#: core/class-configs.php:611 core/integrations/class-s3.php:197
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+#: core/integrations/class-s3.php:196
+msgid "Enable Amazon S3 support"
+msgstr "Омогући Amazon S3 подршку"
+
+#: core/class-configs.php:612 core/integrations/class-nextgen.php:127
+msgid "NextGen Gallery"
+msgstr "NextGen Галерија"
+
+#: app/class-abstract-summary-page.php:199
+#: app/class-abstract-summary-page.php:212 app/modals/directory-list.php:56
+msgid "Choose directory"
+msgstr "Одабрати сладиште"
+
+#: app/class-abstract-summary-page.php:195
+msgid "Smush images that aren't located in your uploads folder."
+msgstr "Смашујте слике које се не налазе у фасцикли за отпремање."
+
+#: app/class-abstract-summary-page.php:192
+msgid "Directory Smush Savings"
+msgstr "Уштеда смашовања складишта"
+
+#: app/views/smush-upgrade-page.php:145 core/class-settings.php:307
+msgid "Auto-convert PNGs to JPEGs (lossy)"
+msgstr "Ауто-конвертуј PNG у JPEG"
+
+#: core/class-settings.php:309
+msgid "When you compress a PNG, Smush will check if converting it to JPEG could further reduce its size."
+msgstr "Приликом компресовања PNG датотеке, Smush ће проверити да ли се конверзијом у JPEG може добити додатна уштеда."
+
+#: core/class-settings.php:308
+msgid "PNG to JPEG Conversion"
+msgstr "Конверзија из PNG у JPEG"
+
+#: app/modals/onboarding.php:49 app/modals/onboarding.php:164
+msgid "Full Size Images"
+msgstr "Слике пуне величине"
+
+#: app/pages/class-bulk.php:164
+msgid "Max height"
+msgstr "Максимална висина"
+
+#: app/pages/class-bulk.php:152
+msgid "Max width"
+msgstr "Максимална ширина"
+
+#. translators: %1$s: strong tag, %2$d: max width size, %3$s: tag, %4$d: max
+#. height size, %5$s: closing strong tag
+#: app/pages/class-bulk.php:177
+msgid "Currently, your largest image size is set at %1$s%2$dpx wide %3$s %4$dpx high%5$s."
+msgstr "Тренутно је највећа величина слика подешена на %1$s%2$dpx ширине %3$s %4$dpx висине%5$s."
+
+#: core/modules/class-dir.php:332
+msgid "Image couldn't be optimized"
+msgstr "Није могуће оптимизовати слику"
+
+#: core/modules/class-dir.php:945
+msgid "We could not find any images in the selected directory."
+msgstr "Нисмо успели да пронађемо слике у одабраном директоријуму."
+
+#: app/views/directory/meta-box.php:28
+msgid "CHOOSE DIRECTORY"
+msgstr "ИЗАБЕРИТЕ ДИРЕКТОРИЈУМ"
+
+#: app/class-abstract-summary-page.php:154
+#: app/class-abstract-summary-page.php:205
+msgid "Updating Stats"
+msgstr "Ажурирање статуса"
+
+#: core/class-core.php:301
+msgid "Ajax Error"
+msgstr "Ајах грешка"
+
+#: core/class-core.php:299
+msgid "images could not be smushed."
+msgstr "није могуће смашовати слике."
+
+#: core/class-core.php:298
+msgid "image could not be smushed."
+msgstr "није могуће смашовати слику."
+
+#: core/class-core.php:295
+msgid "Missing file path."
+msgstr "Недостаје путања фајла."
+
+#: core/modules/class-dir.php:280
+msgid "Incorrect image id"
+msgstr "Погрешан id слике"
+
+#: app/views/nextgen/meta-box-header.php:26
+msgid "Manage Galleries"
+msgstr "Управљање Библиотекама"
+
+#: app/class-abstract-page.php:200
+msgid "Smush Free was deactivated. You have Smush Pro active!"
+msgstr "WP Smush Free је деактивиран. Сада имате WP Smush Pro активан!"
+
+#. translators: %1$s - a href opening tag, %2$s - a href closing tag
+#: app/views/nextgen/meta-box-header.php:25
+msgid "Smush individual images via your %1$sManage Galleries%2$s section"
+msgstr "Смашујте појединачне слике са вашим %1$sУправљање Библиотекама%2$s одељком"
+
+#: core/media-library/class-media-library-row.php:621
+msgid "Detailed stats for all the image sizes"
+msgstr "Детаљни извештај за све величине слика"
+
+#: app/pages/class-bulk.php:197
+msgid "Just to let you know, the height you’ve entered is less than your largest image and may result in pixelation."
+msgstr "Само да вас обавестимо, висина коју сте ставили је мања од ваше највеће слике и то може довести до пикселације слике."
+
+#: app/pages/class-bulk.php:189
+msgid "Just to let you know, the width you've entered is less than your largest image and may result in pixelation."
+msgstr "Само да вас обавестимо, ширина коју сте поставили је мања од највеће слике и то може довести до пикселације слике."
+
+#: app/class-abstract-page.php:758
+msgid "Your settings have been updated!"
+msgstr "Ваша подешавања су ажурирана!"
+
+#: app/modals/progress-dialog.php:103
+msgid "CANCEL"
+msgstr "Поништи"
+
+#: app/views/bulk/media-lib-empty.php:17
+#: app/views/dashboard/bulk/media-lib-empty.php:10
+#: app/views/nextgen/meta-box.php:42
+msgid "UPLOAD IMAGES"
+msgstr "ОТПРЕМИ СЛИКЕ"
+
+#: app/views/bulk/media-lib-empty.php:5 app/views/nextgen/meta-box.php:25
+msgid "No attachments found - Upload some images"
+msgstr "Прилог није пронађен - Отпремите неке слике"
+
+#: app/class-abstract-page.php:673
+msgid "Lets you check if any images can be further optimized. Useful after changing settings."
+msgstr "Хајде да проверимо да ли нека од слика може додатно да се оптимизује. Корисно након промене подешавања."
+
+#: app/views/bulk/meta-box.php:87 app/views/nextgen/meta-box.php:81
+msgid "BULK SMUSH"
+msgstr "МАСОВНО СМАШУЈ"
+
+#: app/views/bulk/meta-box-header.php:26
+msgid "Media Library"
+msgstr "Библиотека"
+
+#. translators: %s: error message
+#: core/integrations/class-nextgen.php:697
+msgid "Unable to smush image, %s"
+msgstr "Није могуће смашовати слику, %s"
+
+#: core/integrations/class-nextgen.php:657
+msgid "We couldn't process the image, fields empty."
+msgstr "Нисмо у могућности да процесуирамо слику, поља су празна."
+
+#: core/integrations/class-nextgen.php:355
+#: core/integrations/class-nextgen.php:356
+msgid "We couldn't find the metadata for the image, possibly the image has been deleted."
+msgstr "Нисмо у могућности да пронађемо мета податке за слику, могуће је да је слика обрисана."
+
+#: core/backups/class-backups-controller.php:73
+#: core/integrations/class-nextgen.php:644 core/modules/class-backup.php:597
+msgid "Unable to restore image"
+msgstr "Није могуће обновити слику"
+
+#: core/integrations/class-nextgen.php:543
+msgid "Image not restored, Nonce verification failed."
+msgstr "Слика није обновљена. Верификација није успела."
+
+#. translators: %1$s - a href opening tag, %2$s - a href closing tag
+#: app/views/bulk/meta-box-header.php:25
+msgid "Smush individual images via your %1$sMedia Library%2$s"
+msgstr "Смашуј појединачне слике путем %1$sБиблиотеке%2$s"
+
+#: app/views/bulk/media-lib-empty.php:12
+msgid "We haven’t found any images in your media library yet so there’s no smushing to be done!"
+msgstr "Нисмо пронашли нити једну слику у вашој библиотеци па није могуће урадити смашовање."
+
+#: core/class-core.php:294
+msgid "Your membership couldn't be verified."
+msgstr "Вашу чланарину није могуће потврдити."
+
+#: core/class-core.php:293
+msgid "We successfully verified your membership, all the Pro features should work completely. "
+msgstr "Успешно смо потврдили вашу чланарину, све Про могућности би требало у потпуности да функционишу."
+
+#. translators: %s: total number of images
+#: core/modules/class-dir.php:1250
+msgid "You've smushed %d images in total."
+msgstr "%d сте укупно смашовали."
+
+#: app/class-admin.php:597 core/integrations/nextgen/class-admin.php:567
+msgid "Yay! All images are optimized as per your current settings."
+msgstr "Јупи! Све слике су оптимизоване на основу тренутних подешавања."
+
+#: app/class-ajax.php:420 core/integrations/class-nextgen.php:666
+msgid "Image couldn't be smushed as the nonce verification failed, try reloading the page."
+msgstr "Слика није смашована јер верификација није успела, покушајте да освежите страну."
+
+#: app/class-ajax.php:411
+msgid "Image not smushed, fields empty."
+msgstr "Слика није смашована, празна поља."
+
+#: core/integrations/class-nextgen.php:533
+msgid "Error in processing restore action, Fields empty."
+msgstr "Грешка приликом процесуирања акције обнављања, празна поља."
+
+#: core/class-core.php:279 core/integrations/nextgen/class-admin.php:229
+msgid "All images are fully optimized."
+msgstr "Све слике су потпуно оптимизоване."
+
+#: core/integrations/class-nextgen.php:128
+msgid "Allow smushing images directly through NextGen Gallery settings."
+msgstr "Дозволи смашовање слика директно кроз подешавања NextGen библиотеке."
+
+#: core/integrations/class-nextgen.php:126
+msgid "Enable NextGen Gallery integration"
+msgstr "Омогући интеграцију са NextGen Библиотеком"
+
+#. translators: %1$s - <a>, %2$s - </a>
+#: app/class-abstract-page.php:778
+msgid "You have images that need smushing. %1$sBulk smush now!%2$s"
+msgstr "Имате слике које је потребно смашовати. %1$sМасовно смашуј сада!%2$s"
+
+#: app/pages/class-bulk.php:638
+msgid "New"
+msgstr "Нови"
+
+#: core/class-settings.php:282
+msgid "Resize original images"
+msgstr "Промените величину оригиналних слика"
+
+#: app/class-abstract-page.php:731 app/class-admin.php:511
+#: app/class-admin.php:716 app/class-admin.php:760
+#: app/pages/class-directory.php:176 app/pages/class-directory.php:177
+#: core/class-core.php:315
+#: core/external/free-dashboard/classes/notices/class-rating.php:82
+#: core/external/plugin-notice/notice.php:485
+msgid "Dismiss"
+msgstr "Одбацити"
+
+#: app/class-abstract-page.php:245
+msgid "Install Plugin"
+msgstr "Инсталирај Додатак"
+
+#: app/views/dashboard/cdn/meta-box.php:30
+#: app/views/dashboard/lazy-load-meta-box.php:24
+#: app/views/dashboard/webp/meta-box.php:29
+#: app/views/lazyload/disabled-meta-box.php:27
+msgid "Activate"
+msgstr "Укључи"
+
+#: app/class-admin.php:322 app/pages/class-bulk.php:108
+#: _src/react/modules/configs.jsx:150
+#: app/assets/js/smush-react-configs.min.js:6585
+msgid "Settings"
+msgstr "Подешавања"
+
+#. Author of the plugin
+msgid "WPMU DEV"
+msgstr "WPMU DEV"
+
+#: app/class-media-library.php:387
+#: core/integrations/nextgen/class-admin.php:762
+#: core/media-library/class-media-library-row.php:466
+msgid "Savings"
+msgstr "Уштеде"
+
+#: app/class-media-library.php:386
+#: core/integrations/nextgen/class-admin.php:761
+#: core/media-library/class-media-library-row.php:465
+msgid "Image size"
+msgstr "Величина слике/а"
+
+#: app/class-media-library.php:427
+msgid "Smush Now!"
+msgstr "Смашуј Сада!"
+
+#: app/class-media-library.php:496 core/class-core.php:313
+#: core/class-error-handler.php:263 core/class-rest.php:82
+#: core/integrations/nextgen/class-admin.php:269
+#: core/media-library/class-media-library-row.php:75
+#: core/media-library/class-media-library-row.php:354
+msgid "Not processed"
+msgstr "Није процесуирано"
+
+#: core/integrations/nextgen/class-admin.php:713
+msgid "Smush stats"
+msgstr "Смаш статистика"
+
+#: core/class-core.php:300 core/integrations/nextgen/class-admin.php:667
+#: core/integrations/nextgen/class-admin.php:670
+msgid "Already Optimized"
+msgstr "Већ Оптимизовано"
+
+#: core/modules/class-smush.php:560 core/smush/class-smusher.php:376
+msgid "Image couldn't be smushed"
+msgstr "Слику није могуће смашовати"
+
+#. translators: %s: Error message.
+#: core/modules/class-smush.php:540 core/smush/class-smusher.php:352
+msgid "Error posting to API: %s"
+msgstr "Грешка приликом рада са API: %s"
+
+#: core/modules/class-smush.php:566 core/smush/class-smusher.php:388
+msgid "Unknown API error"
+msgstr "Непозната API грешка"
+
+#. translators: %s: Directory path
+#: core/class-error-handler.php:269
+msgid "%s is not writable"
+msgstr "%s није могуће прегазити/снимити"
+
+#: core/class-error-handler.php:261
+msgid "File path is empty"
+msgstr "Путања фајла је празна"
+
+#: app/class-ajax.php:390 core/integrations/class-nextgen.php:428
+msgid "No attachment ID was provided."
+msgstr "ID прилога није пронађен."
+
+#: app/class-ajax.php:382 app/class-ajax.php:428
+#: core/backups/class-backups-controller.php:56
+#: core/integrations/class-nextgen.php:420
+#: core/media/class-media-item-controller.php:29
+#: core/media/class-media-item-controller.php:56
+#: core/modules/class-backup.php:408
+msgid "You don't have permission to work with uploaded files."
+msgstr "Нема дозволу да радите са отпремљеним фајловима."
+
+#: core/class-core.php:276 core/integrations/nextgen/class-admin.php:227
+msgid "Smush Now"
+msgstr "Смашуј Сада"
+
+#: core/class-core.php:275 core/integrations/nextgen/class-admin.php:226
+msgid "Super-Smush"
+msgstr "Супер-Смашуј"
+
+#: core/class-core.php:303
+msgid "All Done!"
+msgstr "Готово!"
+
+#: app/class-admin.php:369
+msgid "WP Smush"
+msgstr "WP Smush"
+
+#: core/external/free-dashboard/classes/notices/class-email.php:98
+msgid "No thanks"
+msgstr "Не хвала"
+
+#: core/external/free-dashboard/classes/notices/class-email.php:97
+#: core/external/free-dashboard/classes/notices/class-rating.php:81
+msgid "Saving"
+msgstr "Чувам"
+
+#: core/external/free-dashboard/classes/notices/class-email.php:93
+#: core/external/free-dashboard/classes/notices/class-rating.php:77
+msgid "Thanks :)"
+msgstr "Хвала :)"
+
+#: core/modules/class-smush.php:577 core/smush/class-smusher.php:412
+msgid "Smush data corrupted, try again."
+msgstr "Smush подаци су корумпирани, покушајте поново."
+
+#: core/external/free-dashboard/classes/notices/class-email.php:94
+#: core/external/free-dashboard/classes/notices/class-email.php:213
+#: wp-smush.php:487
+msgid "Get Fast!"
+msgstr "Будите Брзи!"
+
+#. translators: 1: Error code, 2: Error message
+#. translators: 1: Error code, 2: Error message.
+#: core/modules/class-smush.php:548 core/smush/class-smusher.php:362
+msgid "Error posting to API: %1$s %2$s"
+msgstr "Грешка приликом рада са API-јем: %1$s %2$s"
+
+#: app/common/meta-box-footer.php:17
+msgid "Save changes"
+msgstr "Сачувај измене"
+
+#: app/views/nextgen/summary-meta-box.php:65
+msgid "Super-Smushed images"
+msgstr "Супер-смашоване слике"
